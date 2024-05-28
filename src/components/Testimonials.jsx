@@ -27,9 +27,9 @@ const Testimonials = () => {
 <div className="row">
 
 
-<div className="col-12 col-md-6 col-lg-4">
+<div className="col-12 col-md-6 col-lg-4 pb-5">
 
-<div className="card card4 ~">
+<div className="card card4 w-100">
     
 <img className='mx-3' src="/icons/stars.svg" alt="" />
 <p className='pht pt-4 mx-3'>"Nulla facilisi. Sed sit amet commodo <br /> quam, ac viverra turpis. Maecenas <br /> vitae pulvinar lacus. Suspendisse <br /> cursus turpis vel ante laoreet vehicula."</p>
@@ -41,10 +41,10 @@ const Testimonials = () => {
 
 
 
-<div className="col-12 col-md-6 col-lg-4 ">
+<div className="col-12 col-md-6 col-lg-4 pb-5">
 
 
-<div className="card card4 mollie">
+<div className="card card4 mollie w-100">
 
 <img className='mx-3' src="/icons/stars.svg" alt="" />
 <p className='pht pt-4 mx-3'>"Sed mattis scelerisque metus. Mauris <br /> ultricies, dui id finibus pretium, neque <br /> sapien vestibulum lectus, id tincidunt <br /> risus nulla at magna. Nulla rhoncus <br /> dolor at est vehicula, vel gravida risus <br /> vulputate libero."</p>
@@ -57,10 +57,10 @@ const Testimonials = () => {
 
 
 
-<div className="col-12 col-md-6 col-lg-4">
+<div className="col-12 col-md-6 col-lg-4 pb-5">
 
 
-<div className="card card4">
+<div className="card card4 w-100 ">
 
 <img className='mx-3' src="/icons/stars.svg" alt="" />
 <p className='pht pt-4 mx-3'>""Duis sit amet mi et mauris sollicitudin <br /> semper. Donec quam justo, accumsan <br /> condimentum sollicitudin sed, posuere <br /> ac lacus etiam saggitis sed nisi."</p>
@@ -74,7 +74,7 @@ const Testimonials = () => {
 
 <div className="col-12 col-md-6 col-lg-4 pt-5">
 
-<div className="card card4 kate">
+<div className="card card4 kate w-100">
 
 <img className='mx-3' src="/icons/stars.svg" alt="" />
 <p className='pht pt-4 mx-3'>"Maecenas tellus mauris, sagittis a <br /> dui sed, porta convallis est. Morbi <br /> sapien massa, semper non tincidunt <br /> sed, lobortis vel nisl. Curabitur <br /> fermentum eget justo nec efficitur."</p>
@@ -90,7 +90,7 @@ const Testimonials = () => {
 <div className="col-12 col-md-6 col-lg-4 pt-5 koray">
 
 
-<div className="card card4 mollie">
+<div className="card card4 mollie w-100">
 
 <img className='mx-3' src="/icons/stars.svg" alt="" />
 <p className='pht pt-4 mx-3'>"Phasellus laoreet posuere est quis <br /> euismod. In facilisis sem non tincidunt <br /> feugiat. Mauris vitae elit eget quam <br /> sollicitudin gravida. Praesent imperdiet <br /> viverra justo nec ullamcorper. In <br /> dictum felis at mauris fringilla pulvinar."</p>
@@ -103,7 +103,7 @@ const Testimonials = () => {
 
 <div className="col-12 col-md-6 col-lg-4 pt-5">
 
-<div className="card card4">
+<div className="card card4 w-100">
 
 <img className='mx-3' src="/icons/stars.svg" alt="" />
 <p className='pht pt-4 mx-3'>"Etiam sagittis nec tortor in <br /> scelerisque. Sed et bibendum nisi, sit <br /> amet varius libero. Maecenas posuere <br /> convallis tellus, at hendrerit sem."</p>

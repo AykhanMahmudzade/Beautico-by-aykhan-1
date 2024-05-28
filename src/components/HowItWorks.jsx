@@ -1,6 +1,7 @@
 import React from "react";
 import "./HowItWorks.css";
 
+
 import Card3 from "./Card3";
 
 const HowItWorks = () => {
@@ -57,7 +58,7 @@ const HowItWorks = () => {
             <div class="intro-left-side lico pt-5 col-12 col-md-6 ">
               <p className="fac1">
                 {" "}
-                <img className="face1" src="/images/face1.svg" alt="" />{" "}
+                <img className="face1 w-100 " src="/images/face1.svg" alt="" />{" "}
               </p>
             </div>
             <div class="intro-right-side  fskin col-12 col-md-6 ">

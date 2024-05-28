@@ -20,11 +20,11 @@ const Latest = () => {
     <div class="latest-left-side col-12 col-md-6">
 
     <p className='pt-5'> <button className='works'>Latest posts</button> </p>
-     <h1 className='fub'>From our blog</h1>
-     <p className='sit pt-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+     <h1 className='fub pt-4'>From our blog</h1>
+     <p className='sit pt-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>
 
-    <div class="latest-right-side col-12 col-md-6">
+    <div class="latest-right-side ourstoryy col-12 col-md-6">
     <p className='d-flex justify-content-end vap'> <button className='ourstory pt-2 text-center shopnow'>View all posts</button> </p> 
      
     </div>
@@ -46,7 +46,7 @@ const Latest = () => {
     <div className="row lp">
     
 <div className="col-12 col-md-6 col-lg-4 pt-5">
- <div className="card">
+ <div className="card w-100">
 <Card5
  kartinShekli5="/images/antiage.svg"
  kartinBasligi5="Dry acne prone skincare routine"
@@ -59,7 +59,7 @@ kartinParaqrafi5="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspe
 
 
 <div className="col-12 col-md-6 col-lg-4 pt-5">
- <div className="card border-0 ">
+ <div className="card border-0 w-100">
 <Card5
  kartinShekli5="/images/skintypes.svg"
  kartinBasligi5="5 ingredients to calm down stressed out skin"
@@ -73,7 +73,7 @@ kartinParaqrafi5="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspe
 
 
 <div className="col-12 col-md-6 col-lg-4 pt-5">
- <div className="card border-0 ">
+ <div className="card border-0 w-100 ">
 <Card5
  kartinShekli5="/images/organic.svg"
  kartinBasligi5="How to use products for sensitive skin"

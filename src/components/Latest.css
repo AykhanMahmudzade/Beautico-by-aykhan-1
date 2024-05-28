@@ -19,7 +19,11 @@ font-weight: 400;
 
 @media(max-width:768px){
 
-
+.ourstoryy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 }
     

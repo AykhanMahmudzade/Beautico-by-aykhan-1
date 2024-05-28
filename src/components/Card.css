@@ -33,14 +33,12 @@ border-width: 1px;
 }
 
 
+
 @media(max-width:768px){
 
-   
-
-    .pd{
-        width: 200px;
-    }
-
+.pd{
+    width: 200px;
+}
     
          
       }
