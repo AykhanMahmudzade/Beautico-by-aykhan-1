@@ -1,0 +1,172 @@
+.introductions{
+    background-color: #edebf7;
+}
+
+.skin{
+    color: #3C2769;
+    font-size: 56px;
+    font-weight: 400;
+}
+
+.lorem{
+    color: #3C2769;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+.man{
+  width: 753px;
+  height: 570px;
+}
+
+.shopp{
+    background-color: #cf4d74;
+    width: 143px;
+    height: 58px;
+   border: none;
+   border-radius: 64px;
+
+}
+
+.story{
+    background-color: white;
+    border: white;
+    width: 143px;
+    height: 58px;
+    border-radius: 64px;
+    border-width: 1px;
+}
+
+
+.back{
+    background-color: white;
+    width: 170px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    color: #3C2769;
+}
+
+
+.buttons button {
+    margin-right: 3px;
+    border: none; 
+    padding: 5px 10px;
+  }
+  
+  .buttons button.story {
+    margin-right: 5px;
+    font-size: 16px;
+  }
+
+
+  
+
+  @media (max-width: 320px) {
+    .intro-left-side {
+      text-align: center;
+      padding: 0;
+    }
+  
+    .intro-right-side {
+      text-align: center;
+    }
+  
+    .man {
+      width: 100%;
+      height: auto;
+    }
+  
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .shopp, .story {
+      width: 80%;
+      margin-bottom: 10px;
+    }
+  
+    .partners1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      display: block; /* Change to block to make images stack vertically */
+    text-align: center; /* Center the images */
+    }
+  
+    .partners2 {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .partners2 .swiper-slide {
+      width: 90%;
+    }
+
+    .logo1, .logo2, .logo3 {
+      display: block; /* Ensure each image is on its own line */
+      margin: 10px auto; /* Center the images and add vertical margin */
+    }
+
+
+.partners1 ul {
+  list-style-type: none; /* Убираем маркеры списка */
+  padding: 0; /* Убираем отступы */
+  margin: 0; /* Убираем отступы */
+}
+
+.partners1 ul li {
+  margin-bottom: 10px; /* Добавляем отступ между элементами списка */
+}
+
+  }
+
+
+
+  @media (max-width: 768px) {
+    .intro-left-side {
+      text-align: center;
+      padding: 20px;
+    }
+  
+    .intro-right-side {
+      text-align: center;
+    }
+  
+    .man {
+      width: 100%;
+      height: auto;
+    }
+  
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .shopp, .story {
+      width: 50%;
+      margin-bottom: 10px;
+    }
+  
+    .partners1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .partners2 {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .partners2 .swiper-slide {
+      width: 45%;
+    }
+  }

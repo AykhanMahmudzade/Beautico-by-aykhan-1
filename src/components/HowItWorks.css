@@ -1,0 +1,147 @@
+
+.hiws{
+    padding-top: 200px;
+}
+
+
+
+.works{
+    width: 124px;
+    height: 32px;
+    border-radius: 24px;
+    background-color: #EDEBF7;
+color: #3C2769;
+    border: none;
+}
+
+.easy{
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.amet{
+    font-size: 18px;
+    font-weight: 400;
+    color: #697586;
+}
+
+
+.face1{
+    width: 576px;
+    height: 476px;
+}
+
+.face2{
+    width: 576px;
+    height: 476px;
+}
+
+.collect{
+    width: 199px;
+    height: 32px;
+    border-radius: 24px;
+    color: #3C2769;
+    background-color: #EDEBF7;
+    border: none;
+}
+
+.faceskin{
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.6px;
+}
+
+.sitamet{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #697586;
+}
+
+.fskin{
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.shopnow{
+    border-radius: 64px;
+    border-color: #CDD5DF;
+width: 143px;
+height: 58px;
+}
+
+
+.intro-left-side2{
+    padding-top: 200px;
+}
+
+
+
+@media(max-width:320px){
+
+    .face1{
+        width:290px ;
+        height: 300px;
+    }
+    
+    .face2{
+        width:290px ;
+        height: 300px;
+
+    }
+
+    .fskin{
+        padding: 0;
+    }
+
+   
+
+       
+    }
+    
+    
+    
+    @media(min-width:768px){
+    
+       
+       
+        .face1{
+            width:280px ;
+            /* height: 500px; */
+        }
+        
+        .face2{
+            width:290px ;
+            /* height: 300px; */
+            
+    
+        }
+
+        .hiwcard1{
+            align-items: center;
+        }
+
+      
+
+    }
+    
+
+
+    @media(max-width:768px){
+    
+       
+    
+
+        .hiwcard1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+
+      
+
+    }
+
+

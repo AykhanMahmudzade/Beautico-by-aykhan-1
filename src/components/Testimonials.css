@@ -1,0 +1,49 @@
+.wocs{
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.6px;
+}
+
+.sit{
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #697586;
+    
+}
+
+.pht{
+    font-size: 18px;
+    font-weight: 400;
+    color: #697586;
+}
+
+.ppl{
+    width: 56px;
+    float: left;
+}
+
+.nm{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.prf{
+color: #697586;
+font-size: 16px;
+line-height: 24px;
+font-weight: 400;
+}
+
+.mollie{
+    height: 300px !important;
+}
+
+.kate{
+    height: 270px !important;
+}
+
+.koray{
+    padding-bottom: 250px
+}

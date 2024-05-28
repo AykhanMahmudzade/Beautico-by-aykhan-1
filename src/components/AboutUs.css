@@ -1,0 +1,115 @@
+.aboutUs{
+    padding-top: 150px;
+}
+
+.aboutus {
+    background-color: #edebf7;
+    border-radius: 24px;
+    color: #3C2769;
+    width: 95px;
+    height: 24px;
+    align-items: center;
+}
+
+.story2 {
+    font-size: 48px;
+    align-items: center;
+}
+
+.aboutus {
+    color: #3C2769;
+    background-color: #EDEBF7;
+    font-size: 16px;
+    border: none;
+    width: 95px;
+    height: 32px;
+    border-radius: 24px;
+}
+
+.ourstory {
+    width: 138px;
+    height: 58px;
+    border-radius: 64px;
+    background-color: white;
+    border-width: 1px;
+
+}
+
+.contactus {
+
+    border: none;
+    background-color: white;
+    border-color: #CDD5DF;
+}
+
+
+
+
+
+
+
+.bestsellers {
+    color: #3C2769;
+    background-color: #EDEBF7;
+    width: 113px;
+    height: 32px;
+    border-radius: 24px;
+    border: none;
+
+
+}
+
+
+.bestSellers {
+    padding-top: 220px;
+}
+
+
+
+
+@media (max-width: 320px) {
+    .carta1, .carta2, .carta3, .carta4, .carta5 {
+      margin-bottom: 20px; /* увеличиваем промежуток между картами */
+    }
+
+
+    .card {
+        margin-bottom: 20px; /* Add space below each card */
+    }
+    
+
+    .carta4,
+    .carta5 {
+      width: 100%; /* Задайте ширину 100% для полной адаптивности на узких экранах */
+      margin-bottom: 20px; /* Измените отступ между карточками */
+
+  }
+  
+
+ 
+
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .carta1, .carta2, .carta3, .carta4, .carta5{
+      margin-bottom: 20px; /* увеличиваем промежуток между картами */
+text-align: center;
+justify-content: center;
+display: flex;
+    }
+
+    .carta4, .carta5 {
+        margin-top: 20px; /* Добавляем верхний отступ между картами */
+      }
+
+
+
+      
+    
+  }
+  
